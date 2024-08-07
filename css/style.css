@@ -1,0 +1,677 @@
+*{
+    margin: 0px;
+}
+.container{
+    max-width: 1210px;
+    padding: 0px 10px;
+    width: 100%;
+    margin: auto;
+}
+.cmn-gap{
+    padding: 70px 0px
+}
+.cmn-head{
+   font-size: 40px;
+   color: black;
+   padding-bottom: 60px ;
+   font-weight: normal;
+   font-family: "Poppins", sans-serif;
+   text-align: center;
+}
+.cmn-btn{
+    background-color: #12B73E;
+    color: #E2E2E2;
+    font-size: 20px;
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 100px;
+}
+@media (max-width:1440px) {
+    .container{
+        max-width: 1210px;
+        padding: 0px 10px;
+        width: 100%;
+        margin: auto;
+    }
+    
+}
+
+@media (max-width:1199px) and (min-width:992px) {
+    .common{
+       max-width: 1140px!important;
+       width: 100%!important;
+       margin: auto!important;
+    }
+ }
+ 
+ @media (max-width:992px) and (min-width:768px) {
+    .common{
+       max-width: 930px!important;
+       width: 100%!important;
+       margin: auto!important;
+    }
+ }
+ 
+ @media (max-width:768px) and (min-width:576px) {
+    .common{
+       max-width: 720px!important;
+       width: 100%!important;
+       margin: auto!important;
+    }
+ }
+ 
+ @media (max-width:576px) and (min-width:01px) {
+    .common{
+       padding: 0px 15px!important;
+       width: 100%!important;
+    }
+ } 
+ 
+ /* *navbarresponsive */
+ .fa-bars{
+    padding: 2px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.main-nav-show{
+    background-color: white!important;
+    padding: 30px!important;
+}
+.child-nav-show{
+    text-align: center;
+    margin-top: 10px!important;
+}
+.child-nav-show a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.child-nav-show li{
+    display: block;
+    line-height: 25px;
+}
+.nav-btn{
+    text-align: center;
+    margin-left: 30px;
+}
+.nav-bar-btn{
+    display: none;
+}
+.main-nav-show{
+    display: none;
+}
+@media (max-width:895px) and (min-width:01px) {
+    .child-nav-div{
+        display: none;
+    }
+    .nav-bar-btn{
+        display: block;
+        margin-right: 30px;
+    }
+    .main-nav-div{
+        display: flex!important;
+        justify-content: end!important;
+    }
+}
+  /* *navbarresponsive */
+
+.navbar-sec{
+   height: 96px;
+   width: 100%;
+}
+.main-nav-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+}
+.child-nav-div li{
+    display: inline;
+    padding-right: 20px;
+}
+.child-nav-div a{
+    text-decoration: none;
+    font-size: 21px;
+    
+}
+.nav-btn{
+    padding: 10px 38px;
+    background-color: #8BC726;
+    border-radius: 20px;
+    color: white;
+    margin-right: 20px;
+}
+
+/* *banner-sec */
+
+
+.banner-sec{
+    background-image: url("../image/home-banner1\ 1.svg");
+    width: 100%;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    height: 775px;
+}
+.main-banner-div{
+    display: flex;
+    align-items: center;
+    height: 775px;
+}
+.child-banner-div{
+    width: 50%;
+}
+.child-banner-div h1{
+    font-size: 40px;
+    color: black;
+    padding: 40px 0px;
+    line-height: 60px;
+}
+.child-banner-div span{
+    color: #8BC726;
+}
+.child-banner-div p{
+    font-size: 16px;
+    padding-bottom: 35px;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* *about-sec */
+.main-about-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.child-about-div img{
+    height: 500px;
+    width: 100%;
+}
+
+ 
+.child-about-div{
+    width: 49%;
+    text-align: center;
+}
+.child-about-div p{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 44px;
+    line-height: 40px;
+}
+
+
+/* *activity-sec */
+
+.activities-sec{
+    background-image: url("../image/active\ banner\ img.svg");
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.main-active-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.child-active-div{
+    width: 30%;
+    padding-bottom: 50px;
+}
+.child-active-div h3{
+    padding-top: 20px;
+    font-size: 26px;
+}
+.child-active-div p{
+    padding: 20px 20px;
+    font-size: 15px;
+}
+
+/* *diet-section */
+.main-diet-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.diet-child-div{
+    width: 31%;
+    text-align: center;
+}
+
+/* tips-section */
+
+.main-tips-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.child-tips-div{
+    display: flex;
+    justify-content: space-between;
+    width: 43%;   
+    background-color: #F3F3F3;
+    margin-bottom: 30px;
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.sub-tips-div img{
+    width: 100%;
+    /* height: 200px; */
+}
+.sub-tips-div2 h3{
+    font-size: 24px;
+   padding: 20px 0px;
+   font-weight: normal;
+   font-family: "Poppins", sans-serif;
+}
+.sub-tips-div2 p{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+.tips-btn{
+   text-decoration: none;
+   color:#12B73E;
+}
+
+
+
+/* *baclgrouns-sec */
+.background-sec{
+    background-image: url("../image/Rectangle\ 10.svg");
+    width: 100%;
+    height: 469px;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+}
+.main-back-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 469px;
+}
+
+.child-back-div{
+    text-align: center;
+}
+.child-back-div h2{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+}
+
+
+/* * child-blog-div*/
+.main-blog-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.blog-sec{
+    text-align: center;
+    
+}
+.blog-sec p{
+    font-size: 16px;
+    padding-bottom: 60px;
+    font-family: "Poppins", sans-serif;
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.sub-blog{
+    padding: 20px;
+}
+.child-blog-div{
+    margin-bottom: 30px;
+    background-color: #F3F3F3;
+    box-shadow: 5px 5px 5px grey;
+    width: 47%;
+}
+.child-blog-div p{
+    padding: 10px 20px;
+    text-align: start;
+}
+.child-blog-div img{
+    width: 100%;
+}
+
+/* *testimonal-secton */
+
+.main-test-div{
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+} 
+
+.child-test-div{
+    background-color: #E2E2E2;
+    width: 32%;
+    min-height: 362px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sub-test{
+    padding: 20px 50px;
+}
+.sub-test img{
+    height: 120px;
+    width: 100%;
+}
+.sub-test i{
+    font-size: 40px;
+    color: #12B73E;
+    padding-bottom: 19px;
+}
+.sub-test h3{
+    font-size: 20px;
+    padding-bottom: 31px;
+}
+.sub-test p{
+    font-size: 12px;
+    padding-bottom: 37px;
+    font-family: "Poppins", sans-serif;
+}
+.sub-test h4{
+    font-size: 14px;
+}
+.sub-test span{
+    color: #12B73E;
+}
+.sub-test h4{
+    padding-bottom: 50px;
+}
+
+/* *app-section */
+
+.main-app-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.child-app-div .img{
+    height: 705px;
+    width: 100%;
+}
+.child-app-div{
+    width: 47%;
+   
+}
+.child-app-div span{
+    color: #12B73E;
+    font-size: 28px;
+}
+.child-app-div h2{
+    font-size: 48px;
+    font-weight: normal;
+    padding-bottom: 39px;
+    padding-top: 25px;
+}
+.child-app-div p{
+    line-height: 30px;
+    padding-bottom: 53px;
+    font-family: "Poppins", sans-serif;
+}
+.child-app-div img2{
+    width: 100%;
+    height: 150px;
+}
+/* *footer-sec */
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.child-footer{
+    width: 32%;
+}
+.child-footer p{
+    line-height: 30px;
+    padding-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+}
+.child-footer h2{
+    padding-bottom: 30px;
+}
+.sub-foot{
+    line-height: 30px;
+}
+.child-footer li{
+    display: block;
+    line-height: 30px;
+}
+.child-footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+.form{
+    padding-bottom: 35px;
+}
+
+
+.copyright-sec{
+    height: 50px;
+}
+
+.main-copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.child-copy a{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.email{
+    padding: 10px 20px 10px 30px;
+}
+.button{
+    background-color: #12B73E;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+@media (max-width:1199px) and (min-width:992px) {
+    .child-banner-div{
+        width: 100%;
+        background-size: cover;
+       }
+    .child-about-div{
+       width: 100%;
+    }
+    .child-active-div{
+        width: 31%;
+    }
+    .diet-child-div{
+        width: 31%!important;
+    }
+    .child-tips-div{
+        width: 43%;
+    }
+    .child-back-div{
+        width: 100%;
+    }
+    .child-blog-div{
+        width: 49%;
+    }
+    .child-test-div{
+        width: 31%;
+    }
+    .child-app-div{
+        width: 47%;
+    }
+    .child-footer{
+        width: 31%;
+    }
+    .banner-sec{
+        background-size: cover!important;
+        background-repeat: no-repeat;
+    }
+    .activities-sec{
+        background-size: cover!important;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width:992px) and (min-width:768px) {
+   .child-banner-div{
+    width: 100%;
+    background-size: cover;
+   }
+    .child-about-div{
+        width: 100%;
+    }
+    .child-active-div{
+        width: 43%;
+    }
+    .diet-child-div{
+        width: 43%!important;
+    }
+    .child-tips-div{
+        width: 100%!important;
+    }
+    .child-back-div{
+        width: 100%;
+    }
+    .child-blog-div{
+        width: 100%;
+    }
+    .child-test-div{
+        width: 47%;
+    }
+    .child-app-div{
+        width: 100%;
+        text-align: center;
+    }
+    .child-footer{
+        width: 47%;
+    }
+    .banner-sec{
+        background-size: cover!important;
+        background-repeat: no-repeat;
+    }
+    .activities-sec{
+        background-size: cover!important;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width:768px) and (min-width:576px) {
+    .child-banner-div h1{
+        font-size: 30px;
+    }
+    .child-banner-div{
+        width: 100%;
+        background-size: cover;
+       }
+    .child-about-div{
+        width: 100%;
+    }
+    .child-active-div{
+        width: 43%;
+    }
+    .diet-child-div{
+        width: 100%!important;
+    }
+    .child-tips-div{
+        width: 100%;
+    }
+    .child-back-div{
+        width: 100%;
+    }
+    .child-blog-div{
+        width: 100%;
+    }
+    .child-test-div{
+        width: 47%;
+    }
+    .child-app-div{
+        width: 100%;
+        text-align: center;
+    }
+    .child-footer{
+        width: 47%;
+    }
+    .child-back-div h2{
+        font-size: 25px;
+    }
+    .banner-sec{
+        background-size: cover!important;
+        background-repeat: no-repeat;
+    }
+    .activities-sec{
+        background-size: cover!important;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width:576px) and (min-width:01px) {
+    .child-banner-div h1{
+        font-size: 30px;
+    }
+    .child-banner-div{
+        width: 100%;
+        background-size: cover;
+       }
+    .child-about-div{
+        width: 100%;
+    }
+    .child-active-div{
+        width: 100%;
+    }
+    .diet-child-div{
+        width: 100%!important;
+    }
+    .child-tips-div{
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .child-back-div{
+        width: 100%;
+    }
+    .child-back-div h2{
+        font-size: 25px;
+    }
+    .child-blog-div{
+        width: 100%;
+    }
+    .child-test-div{
+        width: 100%;
+    }
+    .child-app-div{
+        width: 100%;
+        text-align: center;
+    }
+    .child-footer{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-sec{
+        background-size: cover!important;
+        background-repeat: no-repeat;
+    }
+    .activities-sec{
+        background-size: cover!important;
+        background-repeat: no-repeat;
+    }
+} 
